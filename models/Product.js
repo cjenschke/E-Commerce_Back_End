@@ -52,12 +52,12 @@ Product.init(
   }
 );
 
-// Add associations
-Product.associate = (models) => {
-  Product.belongsTo(models.Category, {
-    foreignKey: 'category_id',
-    as: 'category',
-  });
-};
+// // Add associations
+// Product.associate = (models) => {
+//   Product.belongsTo(models.Category, {
+//     foreignKey: 'category_id',
+//     as: 'category',
+//   });
+// };
 
 module.exports = Product;
