@@ -36,5 +36,16 @@ ProductTag.init(
     modelName: 'product_tag',
   }
 );
+// Add associations
+ProductTag.associate = (models) => {
+  ProductTag.belongsTo(models.Product, {
+    foreignKey: 'product_id',
+    as: 'product',
+  });
+  ProductTag.belongsTo(models.Tag, {
+    foreignKey: 'tag_id',
+    as: 'tag',
+  });
+};
 
 module.exports = ProductTag;
