@@ -25,12 +25,5 @@ Category.init(
     modelName: 'category',
   }
 );
-// // Add associations
-// Category.associate = (models) => {
-//   Category.hasMany(models.Product, {
-//     foreignKey: 'category_id',
-//     as: 'products',
-//   });
-// };
 
 module.exports = Category;
