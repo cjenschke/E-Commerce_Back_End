@@ -23,7 +23,7 @@
 
 ## Installation
 
-1. Clone repository <a href="https://github.com/cjenschke/E-Commerce_Back_End">GitHub Employee Tracker</a> to your local machine.
+1. Clone repository <a href="https://github.com/cjenschke/E-Commerce_Back_End">GitHub E-COMMERCE_BACK_END</a> to your local machine.
 
 2. To install the required packages, use the following command: `npm install`
 
