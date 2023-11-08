@@ -65,6 +65,8 @@ database
 
 ## Tests
 
+- Tests can be done using Insomnia Core after seed data is added with `node seeds`.
+
 ## Questions
 
 If you have questions, you can contact me at [cimarron13@mac.com](mailto:cimarron13@mac.com) or <a href="https://github.com/cjenschke">GitHub</a>.
